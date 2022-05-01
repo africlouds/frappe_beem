@@ -1,0 +1,83 @@
+{
+ "actions": [],
+ "autoname": "format:{id}",
+ "creation": "2022-05-01 10:23:48.533634",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id",
+  "senderid",
+  "sample_content",
+  "status",
+  "created"
+ ],
+ "fields": [
+  {
+   "fieldname": "id",
+   "fieldtype": "Data",
+   "label": "ID",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "senderid",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Sender ID",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "sample_content",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Sample Content"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "created",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Created"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_virtual": 1,
+ "links": [],
+ "modified": "2022-05-01 10:44:11.730289",
+ "modified_by": "Administrator",
+ "module": "Frappe Beem",
+ "name": "Sender Name",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "id"
+}

@@ -1,0 +1,69 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-05-01 10:08:01.645397",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "api_credentials_section",
+  "api_key",
+  "column_break_3",
+  "api_secret",
+  "sms_section",
+  "sms_api_base_url"
+ ],
+ "fields": [
+  {
+   "fieldname": "api_key",
+   "fieldtype": "Data",
+   "label": "API Key"
+  },
+  {
+   "fieldname": "api_secret",
+   "fieldtype": "Data",
+   "label": "API Secret"
+  },
+  {
+   "fieldname": "sms_section",
+   "fieldtype": "Section Break",
+   "label": "SMS"
+  },
+  {
+   "fieldname": "sms_api_base_url",
+   "fieldtype": "Data",
+   "label": "SMS API Base URL"
+  },
+  {
+   "fieldname": "api_credentials_section",
+   "fieldtype": "Section Break",
+   "label": "API Credentials"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2022-05-01 10:08:59.333181",
+ "modified_by": "Administrator",
+ "module": "Frappe Beem",
+ "name": "Beem Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

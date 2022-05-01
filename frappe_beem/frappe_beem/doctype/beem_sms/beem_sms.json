@@ -1,0 +1,108 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "BEEM-SMS-.######",
+ "creation": "2022-05-01 10:57:43.374547",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "source_addr",
+  "message",
+  "recipients_section",
+  "recipients",
+  "response_section",
+  "response_code",
+  "column_break_7",
+  "response_message",
+  "response"
+ ],
+ "fields": [
+  {
+   "fieldname": "source_addr",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Source Addr",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "message",
+   "fieldtype": "Text",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Message",
+   "reqd": 1
+  },
+  {
+   "fieldname": "recipients_section",
+   "fieldtype": "Section Break",
+   "label": "Recipients"
+  },
+  {
+   "fieldname": "recipients",
+   "fieldtype": "Table",
+   "options": "Beem SMS Recipient",
+   "reqd": 1
+  },
+  {
+   "fieldname": "response_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Response Code",
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "response_message",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "label": "Response Message",
+   "read_only": 1
+  },
+  {
+   "fieldname": "response",
+   "fieldtype": "Code",
+   "hidden": 1,
+   "label": "Response",
+   "read_only": 1
+  },
+  {
+   "fieldname": "response_section",
+   "fieldtype": "Section Break",
+   "label": "Response"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-05-01 12:04:35.601641",
+ "modified_by": "Administrator",
+ "module": "Frappe Beem",
+ "name": "Beem SMS",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
