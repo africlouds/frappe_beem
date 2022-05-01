@@ -4,4 +4,4 @@ Frappe Integration with Beem Africa communication platform
 
 #### License
 
-MIT
+MIT# frappe_beem
