@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include frappe_beem *.css
+recursive-include frappe_beem *.csv
+recursive-include frappe_beem *.html
+recursive-include frappe_beem *.ico
+recursive-include frappe_beem *.js
+recursive-include frappe_beem *.json
+recursive-include frappe_beem *.md
+recursive-include frappe_beem *.png
+recursive-include frappe_beem *.py
+recursive-include frappe_beem *.svg
+recursive-include frappe_beem *.txt
+recursive-exclude frappe_beem *.pyc
